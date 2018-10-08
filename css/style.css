@@ -67,6 +67,25 @@
     margin-left: auto;
     height: 100%;
     align-items: center;
+    position: relative;
+}
+input{
+    box-sizing: border-box;
+    padding: 0 36px;
+    height: 30px;
+    border: 1px solid #cdd5d9;
+    border-radius: 3px;
+    color: #333;
+    font-family: "-apple-system",BlinkMacSystemFont,Arial,sans-serif;
+    white-space: normal;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    z-index: 100;
+    top: 44px;
+    left: 367px;
+    width: 780px;
+    display: none;
 }
 .login{
     height: 32px;
@@ -123,6 +142,7 @@
     margin-top:50px;
     font-size: 20px;
     margin-bottom:50px;
+    cursor: pointer;
 }
 .left-side{
     width: calc(100% - 320px);
@@ -376,4 +396,48 @@ margin-left:18px;
     width: 30px;
     height: 30px;
     border-radius: 4px;
+}
+.search-close{
+    width: 14px;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    right: 200px;
+    top: 5px;
+    cursor: pointer;
+    display: none;
+    z-index: 10000;
+}
+.search-close:hover .aaa,
+.search-close:hover .bbb{
+    background: #677982;
+}
+.aaa{
+    background: #a6b7c0;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 2px;
+    transform: translateY(-50%);
+    transform: rotate(-45deg);
+}
+.bbb{
+    background: #a6b7c0;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 2px;
+    transform: translateY(-50%);
+    transform: rotate(45deg)
+}
+#searchButton{
+    left: -770px;
+    z-index: 1000;
+    top: 5px;
+}
+.drop-down-img{
+    margin-left: 8px;
+    fill:#79a9d0;
+    width:12px;
+    cursor: pointer;
 }
