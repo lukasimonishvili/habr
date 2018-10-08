@@ -283,7 +283,8 @@ margin-left:18px;
     background: #7aa1bd;
 }
 .footer{
-    position: absolute;
+    /* position: absolute; */
+    clear: both;
     left: 0;
     bottom: -2654px;
     width: 100%;
