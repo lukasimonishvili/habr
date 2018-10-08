@@ -208,7 +208,6 @@
         </div>
     </footer>
     <script>
-
         var Search = {
             open: function() {
                 document.getElementById("search").style.display = "block";
@@ -216,7 +215,6 @@
                 document.getElementById("searchButton").style.position = "absolute";
 
             },
-
             close: function() {
                 if(document.getElementById("search").style.display == "block"){
                     console.log('if');
@@ -227,8 +225,7 @@
             }
         }
         function dropDown(){
-             document.getElementById("dropDownImage").style.transform = "rotate(180deg)";
-             
+             document.getElementById("dropDownImage").classList.toggle('fuck');    
         }
     </script>
 </body>
